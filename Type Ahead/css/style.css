@@ -1,0 +1,39 @@
+#siyahi {
+    background-color: yellow;
+    text-align: center;
+    font-size: 40px;
+}
+
+html {
+    background-color: yellow;
+}
+
+.filter {
+    padding: 7% 0% 0% 6.5%;
+    text-align: center;
+    margin-bottom: 1%;
+}
+
+.filter>input {
+    border: 10px solid rgba(243, 236, 236, 0.699);
+    padding: 2%;
+    width: 1000px;
+}
+
+.list {
+    padding: 0% 0% 0% 3%;
+}
+
+.list>ul>li {
+    list-style: none;
+    background-color: white;
+    padding: 2%;
+    text-align: start;
+    margin-bottom: 1%;
+    width: 1000px;
+    display: none;
+}
+
+.list>ul>li>span:nth-child(2) {
+    float: right;
+}
